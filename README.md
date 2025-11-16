@@ -22,7 +22,7 @@ Ir a la carpeta con el nombre del repositorio o el nombre que usaron para guarda
 ```bash
 cd Computer-vision-detection-of-pistachio-main
 ```
-Lueo tienen que ejecutar el script de python 
+Luego tienen que ejecutar el script de python 
 ```bash
 python detector_pistacho.py
 ```
