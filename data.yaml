@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../test/images
+test: ../test/images
+
+nc: 3
+names: ['almond', 'hazelnut', 'pistachio']
+
+roboflow:
+  workspace: leonardo-lrfc5
+  project: almendras-pistachos-avellanas-2s5bv-xspsg
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/leonardo-lrfc5/almendras-pistachos-avellanas-2s5bv-xspsg/dataset/1
