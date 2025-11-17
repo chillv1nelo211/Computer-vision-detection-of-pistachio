@@ -1,8 +1,13 @@
 from ultralytics import YOLO
 import cv2
 
+# Obtener la ruta del directorio actual del script
+script_dir = os.path.dirname(os.path.abspath(__file__))
+# Construir la ruta relativa al modelo
+model_path = os.path.join(script_dir, "runs/train/almendra_end/weights/best.pt")
+
 # Cargar el modelo entrenado
-model = YOLO(r"C:\Users\LENOVO\Desktop\imagenes_entrenamiento\pistachio_end\runs\train\almendra_end\weights\best.pt")
+model = YOLO(model_path)
 
 # Inicializar la cámara (0 = cámara por defecto)
 cap = cv2.VideoCapture(0)
